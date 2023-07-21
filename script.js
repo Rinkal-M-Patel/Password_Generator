@@ -108,6 +108,15 @@ function getPasswordOptions() {
     return;
   }
 
+  var passwordOptions = {
+    length: length,
+    includeSpecial: includeSpecial,
+    includeNumeric: includeNumeric,
+    includeLowercase: includeLowercase,
+    includeUppercase: includeUppercase,
+  };
+
+  return passwordOptions;
 
 }
 
