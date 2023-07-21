@@ -90,6 +90,24 @@ var upperCasedCharacters = [
 
 // Function to prompt user for password options
 function getPasswordOptions() {
+  var lengthInput = this.prompt("Enter the length of the password (At least 8 characters but no more than 128):");
+  var length = parseInt(lengthInput);
+
+  if(Number.isNaN(length) || length < 8 || length >128){
+    alert("Invalid password length. Please enter a number between 8 and 128.");
+    return;
+  }
+
+  var includeSpecial = this.confirm("Do you want to include special characters?");
+  var includeNumeric = this.confirm("Do you want to include numeric characters?");
+  var includeLowercase = this.confirm("Do you want to include lowercase characters?");
+  var includeUppercase = this.confirm("Do you want to include uppercase characters?");
+
+  if (!includeSpecial && !includeNumeric && !includeLowercase && !includeUppercase) {
+    alert("You must select at least one character type.");
+    return;
+  }
+
 
 }
 
@@ -100,7 +118,8 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
-
+  var options = getPasswordOptions.call(this);
+  return options;
 }
 
 // Get references to the #generate element
