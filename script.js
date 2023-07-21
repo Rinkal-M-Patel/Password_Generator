@@ -154,6 +154,10 @@ function generatePassword() {
     availableCharacters = availableCharacters.concat(upperCasedCharacters);
     generatedPassword += getRandom(upperCasedCharacters);
   }
+
+  for (var i = generatedPassword.length; i < options.length; i++) {
+    generatedPassword += getRandom(availableCharacters);
+  }
  
   return generatedPassword;
 
