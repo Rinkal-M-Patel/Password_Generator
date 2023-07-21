@@ -130,6 +130,10 @@ function generatePassword() {
     generatedPassword += getRandom(specialCharacters);
   }
 
+  if (options.includeNumeric) {
+    availableCharacters = availableCharacters.concat(numericCharacters);
+    generatedPassword += getRandom(numericCharacters);
+  }
  
   return generatedPassword;
 
