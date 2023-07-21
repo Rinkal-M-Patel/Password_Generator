@@ -134,6 +134,17 @@ function generatePassword() {
     availableCharacters = availableCharacters.concat(numericCharacters);
     generatedPassword += getRandom(numericCharacters);
   }
+
+  
+  if (options.includeLowercase) {
+    availableCharacters = availableCharacters.concat(lowerCasedCharacters);
+    generatedPassword += getRandom(lowerCasedCharacters);
+  }
+
+  if (options.includeUppercase) {
+    availableCharacters = availableCharacters.concat(upperCasedCharacters);
+    generatedPassword += getRandom(upperCasedCharacters);
+  }
  
   return generatedPassword;
 
