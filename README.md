@@ -31,7 +31,7 @@ In this Password Generator challenge will  create a Password Generator applicati
 . Here's an example of how the application might look like when implemented:
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![password-generator](./demo.png)
 
 
 
@@ -49,13 +49,13 @@ In this Password Generator challenge will  create a Password Generator applicati
 
 ## Credits
 
->> Stack Overflow: The Stack Overflow community provided solutions to specific coding challenges and troubleshooting help during the development process.
+> Stack Overflow: The Stack Overflow community provided solutions to specific coding challenges and troubleshooting help during the development process.
 
->> MDN Web Docs: The MDN Web Docs provided invaluable information about JavaScript, the DOM, and many other web development concepts.
+> MDN Web Docs: The MDN Web Docs provided invaluable information about JavaScript, the DOM, and many other web development concepts.
 
->> Online Tutorials: Numerous online tutorials and code examples provided insights into user input validation, array manipulation, and event handling.
+> Online Tutorials: Numerous online tutorials and code examples provided insights into user input validation, array manipulation, and event handling.
 
->>Thanks to the contributors of the JavaScript community for their valuable libraries and resources.
+>Thanks to the contributors of the JavaScript community for their valuable libraries and resources.
 
 
 
