@@ -61,7 +61,7 @@ In this Password Generator challenge will  create a Password Generator applicati
 
 ## Demo
 
-Insert gif or link to demo
+https://rinkal-m-patel.github.io/Password_Generator/
 
 
 ## Run Locally
